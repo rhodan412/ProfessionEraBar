@@ -4,8 +4,6 @@
 
 Profession Era Bar adds a compact expansion selector beside the Professions window in **World of Warcraft Retail**. Click an era to select that expansion of your current profession. The selected era is highlighted, unlearned eras are dimmed, and the bar moves to the side of the window with available space.
 
-<img src="Media/ProfessionEraBar.png" alt="Profession Era Bar hourglass icon" width="160">
-
 [Watch the video demonstration](https://www.youtube.com/watch?v=610WMMEPQro)
 
 ## Features
@@ -26,12 +24,6 @@ Profession Era Bar adds a compact expansion selector beside the Professions wind
 | Shift + drag while unlocked | Resize the launcher. |
 
 The launcher saves its position, size, and lock state between sessions.
-
-## In-game screenshot
-
-![Profession Era Bar beside the Engineering Specializations window](Marketing/Screenshots/profession-era-bar-specializations.png)
-
-The expansion selector is the vertical row of icons immediately to the right of the Professions window. This is an unaltered in-game screenshot.
 
 ## Installation and compatibility
 
