@@ -1,0 +1,8 @@
+## Interface: 120100
+## Title: Profession Era Bar
+## Notes: One-click expansion filters beside the Professions window.
+## Author: Rhodan
+## IconTexture: Interface\AddOns\ProfessionEraBar\Media\ProfessionEraBar.tga
+## SavedVariables: ProfessionEraBarDB
+
+ProfessionEraBar.lua
