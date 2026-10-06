@@ -1,0 +1,9 @@
+v12.1.0.0 — Initial release (2026-10-06)
+
+- Switch between the current profession's expansions from a bar beside the Retail Professions window.
+- See the selected era, unlearned eras, skill level, and available specialization points.
+- Switch from Recipes or Specializations, with the bar placed on the side of the window with room.
+- Open either primary profession from the movable hourglass launcher; move, resize, or lock it as needed.
+- Keep the launcher position, size, and lock state between sessions.
+
+For World of Warcraft Retail (Interface 120100).
