@@ -1,0 +1,56 @@
+name: Feature request
+description: Suggest a player-facing improvement to Profession Era Bar.
+title: "[Feature] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us what would make switching profession eras clearer or easier. A rough idea is enough; you do not need to provide code.
+  - type: input
+    id: addon-version
+    attributes:
+      label: Addon version
+      description: Optional, but helpful if the idea builds on current behavior.
+      placeholder: e.g. 12.1.0.0
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area of the addon
+      options:
+        - Era bar and expansion buttons
+        - Recipes and Specializations switching
+        - Era tooltips and learned status
+        - Launcher controls
+        - Positioning, size, or saved settings
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: need
+    attributes:
+      label: What would this improve?
+      description: Describe the profession workflow or limitation you are trying to address.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested behavior
+      description: Describe how you would like the addon to behave.
+    validations:
+      required: true
+  - type: input
+    id: example
+    attributes:
+      label: Example profession and era
+      placeholder: e.g. Alchemy / The Burning Crusade
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples or screenshots
+      description: Add a real in-game screenshot or a sketch if it helps explain the idea. Label any mockup clearly.
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Current workaround
+      description: How do you handle this today, if at all?
