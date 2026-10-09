@@ -1,0 +1,81 @@
+name: Bug report
+description: Report a problem with Profession Era Bar on World of Warcraft Retail.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Please remove personal information from screenshots, Lua errors, and SavedVariables before posting them publicly.
+  - type: input
+    id: addon-version
+    attributes:
+      label: Addon version
+      description: Find this in the in-game AddOns list or the downloaded file name.
+      placeholder: e.g. 12.1.0.0
+    validations:
+      required: true
+  - type: input
+    id: wow-build
+    attributes:
+      label: Retail version or build
+      description: Include the game version shown on the login screen, if known.
+      placeholder: e.g. 12.1.0
+    validations:
+      required: true
+  - type: input
+    id: profession-era
+    attributes:
+      label: Profession and expansion era
+      placeholder: e.g. Engineering / Legion
+    validations:
+      required: true
+  - type: dropdown
+    id: tab
+    attributes:
+      label: Professions tab or context
+      options:
+        - Recipes
+        - Specializations
+        - Crafting Orders or another tab
+        - NPC crafting
+        - Launcher only
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened?
+      description: Describe what you saw, including whether the era appeared colored, grayscale, selected, or missing.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Start from the in-game state before the problem and number each action.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should the bar or launcher have done?
+    validations:
+      required: true
+  - type: textarea
+    id: errors
+    attributes:
+      label: Lua error or protected-action warning
+      description: Paste the full error and stack trace if one appeared. Leave blank if there was no error.
+      render: text
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots or video
+      description: Attach a real in-game capture if it helps show the problem.
+  - type: textarea
+    id: context
+    attributes:
+      label: Other context
+      description: Mention other profession/UI addons, whether `/reload` helps, and whether the expansion tier is learned on this character.
