@@ -9,19 +9,15 @@ body:
   - type: input
     id: addon-version
     attributes:
-      label: Addon version
-      description: Find this in the in-game AddOns list or the downloaded file name.
+      label: Addon package or version (if known)
+      description: Include the CurseForge release, GitHub revision, or downloaded file name if available.
       placeholder: e.g. 12.1.0.0
-    validations:
-      required: true
   - type: input
     id: wow-build
     attributes:
-      label: Retail version or build
+      label: Retail version or build (if known)
       description: Include the game version shown on the login screen, if known.
       placeholder: e.g. 12.1.0
-    validations:
-      required: true
   - type: input
     id: profession-era
     attributes:
